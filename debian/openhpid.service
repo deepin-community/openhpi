@@ -1,0 +1,9 @@
+[Unit]
+Description=Daemon providing access to the SAF Hardware Platform Interface
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/openhpid -n -c /etc/openhpi/openhpi.conf
+
+[Install]
+WantedBy=multi-user.target

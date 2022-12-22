@@ -1,0 +1,10 @@
+# There is something strange about the snmp-bc plugin, in the way it uses
+# it's helper libraries.  I don't fully understand how it's different from
+# the rest of the plug-ins in this respect.
+#
+# In any case, the upstream version didn't give this library a soname.
+# Instead, the packaging enforces that the plug-in and helper libraries are
+# the same version as the main library.  Therefore, I believe (in this case)
+# we shouldn't need to deal with different library versions through the use of
+# sonames.
+openhpi-plugin-snmp-bc binary: package-name-doesnt-match-sonames

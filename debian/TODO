@@ -1,0 +1,7 @@
+Important things
+- Fix #689879 - O: sysfsutils -- interface library to sysfs. 
+  The --enable-sysfs is turned off. It will be built if sysfs is present. 
+  Need to work with upstream to change the dependency
+- The linitian warnings
+  There are many over-rides. These will be looked at and changes made at 
+  appropriate places to fix this

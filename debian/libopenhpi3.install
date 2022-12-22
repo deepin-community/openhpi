@@ -1,0 +1,10 @@
+etc/openhpi
+usr/share/man/man7/openhpi.7
+var/lib/openhpi
+usr/lib/libopenhpi.so.*
+usr/lib/libopenhpimarshal.so.*
+usr/lib/libopenhpiutils.so.*
+usr/lib/libopenhpi_ssl.so.*
+usr/lib/libopenhpitransport.so.*
+usr/lib/openhpi/libosahpi.so
+usr/lib/openhpi/libosahpi.so.*

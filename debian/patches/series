@@ -1,0 +1,4 @@
+makefile_3.8.0.patch
+no-md2.patch
+cross_899198.patch
+ipmi_899152.patch
